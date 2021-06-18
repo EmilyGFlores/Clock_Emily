@@ -1,0 +1,43 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000000;
+    font-size: 100px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+}
+
+#title {   
+    font-size: 50px;
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transform: translate(-50%, -55%);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 5px soldi rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+#buttons {
+    position: absolute;
+    top: 58%;
+    left: 48%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
